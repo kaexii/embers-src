@@ -80,6 +80,6 @@
 	],
 	"3O": [
 		{ "x": 17, "y": -118, "t": 2, "d": [{ "await_seconds_before_spawn": 1, "await_seconds_before_attack": 1.5, "direction": 0}] },
-		{ "x": 17, "y": 0, "t": 7, "d": [{ "toggable": false, "preset": "off" }] }
+		{ "x": 17, "y": 0, "t": 7, "d": [{ "togglable": false, "preset": "off" }] }
 	]
 }
