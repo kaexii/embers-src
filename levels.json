@@ -12,6 +12,11 @@
 		{ "t": "5", "x": "52", "y": "-34" },
 		{ "t": "end", "x": "52", "y": "-34" }
 	],
+	"1O": [
+		{ "x": 0, "y": 20, "t": 1, "d": [{ "await_seconds_before_spawn": 0, "await_seconds_before_attack": 1, "check": false, "wait_until_pposition": true }] },
+		{ "x": 20, "y": 20, "t": 1, "d": [{ "await_seconds_before_spawn": 0, "check": true, "wait_until_pposition": [17, 1] }] },
+		{ "x": 35, "y": 20, "t": 1, "d": [{ "await_seconds_before_spawn": 0, "check": true, "wait_until_pposition": [34, 1] }] }
+	],
 	"2T": [
   		{ "t": "3",   "x": "0",   "y": "0" },
   		{ "t": "11",  "x": "0",   "y": "-19" },
@@ -43,6 +48,10 @@
   		{ "t": "13",  "x": "19",  "y": "0" },
   		{ "t": "end", "x": "87",  "y": "-36" }
 	],
+	"2O": [
+		{ "x": 122, "y": -68, "t": 2, "d": [{ "await_seconds_before_spawn": 1, "await_seconds_before_attack": 1.5, "direction": 270}] },
+		{ "x": 64, "y": -51, "t": 2, "d": [{ "await_seconds_before_spawn": 1, "await_seconds_before_attack": 2, "direction": 90}] }
+	],
 	"3T": [
   		{ "t": "4",  "x": "0",   "y": "0" },
   		{ "t": "8",  "x": "17",  "y": "0" },
@@ -68,5 +77,9 @@
   		{ "t": "7",  "x": "52",  "y": "-17" },
   		{ "t": "2",  "x": "52",  "y": "-34" },
   		{ "t": "j1", "x": "52",  "y": "-34" }
+	],
+	"3O": [
+		{ "x": 17, "y": -118, "t": 2, "d": [{ "await_seconds_before_spawn": 1, "await_seconds_before_attack": 1.5, "direction": 0}] },
+		{ "x": 17, "y": 0, "t": 7, "d": [{ "toggable": false, "preset": "off" }] }
 	]
 }
